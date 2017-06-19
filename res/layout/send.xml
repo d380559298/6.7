@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-8dp"
+        android:layout_y="308dp"
+        android:text="扫描二维码" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="7dp"
+        android:ems="10"
+        android:hint="请输入编码内容" />
+
+    <Button
+        android:id="@+id/gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="41dp"
+        android:text="生成二维码" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="412dp"
+        android:text="                               扫描结果" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-6dp"
+        android:layout_y="102dp"
+         android:visibility="gone"
+/>
+
+</AbsoluteLayout>

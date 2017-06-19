@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    android:columnCount="1" >
+
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:orientation="horizontal"
+         >
+
+        <ImageView
+            android:src="@drawable/password"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            
+                        android:layout_gravity="center"
+            
+            android:alpha="0.5"
+            android:layout_marginLeft="5dp"
+            />
+
+
+                <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="18dp"
+            
+            android:alpha="0.2"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:alpha="0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/login"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:alpha="0.5"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/sel_pword"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="18dp"
+            android:alpha="0.2"
+            android:ems="10"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

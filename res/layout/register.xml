@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerbackground"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal" >
+
+<TableRow
+    android:layout_marginTop="50dp"
+    android:gravity="center_vertical|center_horizontal" >
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="姓名:"
+      android:alpha="0.5"
+      />
+
+<!-- 输入用户名的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_name"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的姓名"
+    android:alpha="0.5"
+    />
+
+</TableRow>
+
+<TableRow android:gravity="center_vertical|center_horizontal" >
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="昵称:"
+      android:alpha="0.5"/>
+
+<!-- 输入用户名的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_faln"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的昵称"
+      android:alpha="0.5"/>
+
+</TableRow>
+
+
+
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+     android:layout_height="wrap_content" 
+     android:layout_width="match_parent"
+     android:textSize="10pt" 
+     android:text="密码:"
+       android:alpha="0.5"
+     />
+
+<!-- 输入密码的文本框 -->
+
+
+<EditText 
+     android:id="@+id/sel_pword"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent" 
+     android:hint="请填写登陆密码" 
+     android:password="true"
+       android:alpha="0.5"/>
+
+</TableRow>
+
+
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="专业:"
+      android:alpha="0.5"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_major"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的所在专业"
+      android:alpha="0.5" />
+</TableRow>
+
+
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="电话:"
+      android:alpha="0.5"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_phone"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的联系电话" 
+    android:phoneNumber="true"
+      android:alpha="0.5"/>
+</TableRow>
+
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="性别:"
+      android:alpha="0.5"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_sex"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的性别" 
+      android:alpha="0.5"/>
+
+</TableRow>
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="地址:"
+      android:alpha="0.5"
+      />
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_daddr"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的默认地址" 
+      android:alpha="0.5"/>
+</TableRow>
+
+
+<TableRow
+    android:gravity="center_vertical|center_horizontal">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="口味:"
+      android:alpha="0.5"/>
+
+<!-- 输入用户名的文本框 -->
+
+
+<EditText 
+    android:id="@+id/sel_like"
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的口味"
+      android:alpha="0.5"/>
+
+</TableRow>
+
+<Button
+    android:id="@+id/btn_submit"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="25dp"
+    android:background="@drawable/register"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:text="" />
+
+</TableLayout>

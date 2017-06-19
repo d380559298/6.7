@@ -1,0 +1,29 @@
+<com.example.slidingmenu.view.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <include layout="@layout/left_menu"/>
+
+            <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/container"
+                        android:orientation="vertical" >
+    <include layout="@layout/top1" />
+
+<include
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:layout_weight="9"
+    layout="@layout/tab03" />
+
+    <include layout="@layout/top4" />
+    </LinearLayout>
+</LinearLayout>
+</com.example.slidingmenu.view.SlidingMenu>

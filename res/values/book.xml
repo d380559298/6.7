@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="books">
+        <item>头像</item>
+        <item >昵称</item>
+        <item >性别</item>
+        <item >生日</item>
+        <item >围合</item>
+        <item >信誉</item>
+        <item >卤蛋</item>
+        <item >订单</item>
+        
+        
+   
+    </string-array>
+</resources>

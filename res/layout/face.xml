@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/id_getImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="230dp"
+        android:layout_y="392dp"
+        android:text="打开" />
+
+    <Button
+        android:id="@+id/id_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="391dp"
+        android:text="识别" />
+
+    <ImageView
+        android:id="@+id/id_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="11dp"
+        android:src="@drawable/t4" />
+
+    <TextView
+        android:id="@+id/id_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="395dp"
+        android:text="TextView" />
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:id="@+id/id_waitting">
+        
+     <ProgressBar 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"/>
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/id_age_and_gender"
+         android:drawableLeft="@drawable/hint"
+         android:visibility="invisible"
+         android:textColor="#ffff00ff"
+         android:textSize="22sp"
+         android:gravity="center"
+         />"
+     
+     </FrameLayout>
+
+</AbsoluteLayout>

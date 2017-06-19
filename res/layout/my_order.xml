@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TableLayout 
+    android:id="@+id/loginForm" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:background="@drawable/top1_bg4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableRow>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="姓名:"/>
+
+<!-- 输入用户名的文本框 -->
+
+
+<EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:id="@+id/order_name"
+    android:hint="请填写您的姓名"/>
+
+</TableRow>
+
+
+<TableRow>
+
+<TextView 
+     android:layout_height="wrap_content" 
+     android:layout_width="match_parent"
+     android:textSize="10pt" 
+     android:text="电话:"/>
+
+<!-- 输入密码的文本框 -->
+
+
+<EditText 
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent" 
+     android:hint="请填写手机" 
+     android:id="@+id/order_phon"/>
+
+</TableRow>
+
+
+<TableRow>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="订菜:"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:hint="请填写您的菜单信息" 
+    android:id="@+id/order_tips"
+    />
+</TableRow>
+<TableRow>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="地址:"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+     android:id="@+id/order_addr"
+    android:hint="请填写您的收获地址" />
+
+</TableRow>
+<TableRow>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:textSize="10pt" 
+    android:text="备注:"/>
+
+<!-- 输入电话号码的文本框 -->
+
+
+<EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:selectAllOnFocus="true" 
+    android:id="@+id/order_other"
+    android:hint="请填写您的备注信息，如小费" 
+    />
+</TableRow>
+
+</TableLayout>

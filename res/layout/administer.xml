@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+         
+
+            <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/container"
+                        android:orientation="vertical" >
+
+            <include layout="@layout/top1" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="5.66"
+                layout="@layout/tab01" />
+
+              <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:id="@+id/c1"
+                        android:orientation="horizontal" >
+                        
+                   <Button
+        android:id="@+id/btn_add"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:text="添加"
+        android:textColor="#464646"
+        android:textSize="16sp" />
+                   
+                    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:text="删除"
+        android:textColor="#464646"
+        android:textSize="16sp" />
+                    
+                     <Button
+        android:id="@+id/btn_alt"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:text="修改"
+        android:textColor="#464646"
+        android:textSize="16sp" />
+                        
+              </LinearLayout>     
+         <include layout="@layout/top2" />
+       
+            </LinearLayout>
+             </LinearLayout>
+              </LinearLayout>
